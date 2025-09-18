@@ -68,3 +68,8 @@
   grid-column: span 2;
   grid-row: span 2;
 }
+@media (max-width: 900px){
+  .container{
+    flex-direction: column;
+  }
+}
